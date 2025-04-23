@@ -10,7 +10,7 @@ I will try to document my journey to becoming a cybersecurity specialist.
 This repository contains my notes from learning cybersecurity.  
 Currently, I am working through the **PreSecurity** room – starting with the basics of Windows Fundamentals.
 
-🔗 My TryHackMe profile: [https://tryhackme.com/p/dopeboy321](https://tryhackme.com/p/dopeboy321)
+🔗 My TryHackMe profile: [https://tryhackme.com/p/michal.szaruga13)
 
 ---
 
