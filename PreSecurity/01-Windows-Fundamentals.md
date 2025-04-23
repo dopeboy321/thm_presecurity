@@ -21,7 +21,7 @@ Windows 10 comes in two versions: Home and Pro. These two versions are different
 
 The current Windows operating system for servers is Windows Server 2019, and for the attached virtual machine, we also use Windows Server 2019 Standard.
 
-At the end, the authors ask the question:
+Objective of this task is to answer the question:
 
 What encryption can you enable on Pro that you can't enable in Home?
 
