@@ -39,7 +39,7 @@ A Graphical User Interface (GUI) lets users interact with devices through icons 
 
 
 <img src="images/screen.png" width="800" />
-<small>Source: Wikipedia</small>
+<small>Image Source: Wikipedia</small>
 
 
 ## What is CLI?
@@ -47,14 +47,16 @@ A Graphical User Interface (GUI) lets users interact with devices through icons 
 A Command-Line Interface is a way of interacting with a computer by typing text commands into a terminal or console.
 
 <img src="images/screen1.png" width="800" />
-<small>Source: Wikipedia</small>
+<small>Image Source: Wikipedia</small>
 
+--- 
 
 In short:
 - GUI = Click buttons
 - CLI = Type commands
 
 CLIs are powerful and efficient for advanced users, but they are hard to learn for beginners. This was the reason why GUIs were created!
+
 
 In this section, the authors provide basic information about the Windows GUI, but I decided not to include that in my notes since I've been a Windows user since I was a kid, I didn't feel the need to include it in my notes.
 
