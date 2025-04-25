@@ -87,12 +87,12 @@ A file system organizes and stores data on a storage device. Without a file syst
 
 The File Allocation Table (FAT) is a simple file system that uses a table at the top of the volume to keep track of file locations.
 
-# FAT characteristics:
+## FAT characteristics:
 
 - Two copies of FAT for protection.
 - Used in USB drives, SD cards, external drives, and consoles etc.
 
-# Limitations:
+## Limitations:
 
 - Maximum size: 2TB partition, 4GB file.
 - Poor performance with large volumes.
@@ -103,7 +103,7 @@ The File Allocation Table (FAT) is a simple file system that uses a table at the
 
 exFAT is an improved version of FAT32 with no practical size limits on files or partitions.
 
-# Limitations:
+## Limitations:
 
 - Less compatibility than FAT32 (some older devices and Linux versions may not support it).
 
@@ -111,7 +111,7 @@ exFAT is an improved version of FAT32 with no practical size limits on files or 
 
 NTFS (New Technology File System) is the primary file system for modern Windows systems. It is a journaling file system, meaning it can repair itself using log files after a failure.
 
-# NTFS improvements:
+## NTFS improvements:
 
 - Limitless file/partition size.
 - File/folder permissions.
