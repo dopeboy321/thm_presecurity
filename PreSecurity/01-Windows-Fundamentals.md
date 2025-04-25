@@ -77,3 +77,78 @@ Answer: Show Task View button
 Answer: Action Center
 
 
+# Task 4 The File System
+
+## What is a File System?
+
+A file system organizes and stores data on a storage device. Without a file system, data would be scattered randomly, and the computer wouldn’t know how to access it. It ensures data is ordered and accessible.
+
+## What is FAT?
+
+The File Allocation Table (FAT) is a simple file system that uses a table at the top of the volume to keep track of file locations.
+
+# FAT characteristics:
+
+- Two copies of FAT for protection.
+- Used in USB drives, SD cards, external drives, and consoles etc.
+
+# Limitations:
+
+- Maximum size: 2TB partition, 4GB file.
+- Poor performance with large volumes.
+- No file permissions.
+- Inefficient space use.
+
+## What is exFAT?
+
+exFAT is an improved version of FAT32 with no practical size limits on files or partitions.
+
+# Limitations:
+
+- Less compatibility than FAT32 (some older devices and Linux versions may not support it).
+
+## What is NTFS?
+
+NTFS (New Technology File System) is the primary file system for modern Windows systems. It is a journaling file system, meaning it can repair itself using log files after a failure.
+
+# NTFS improvements:
+
+- Limitless file/partition size.
+- File/folder permissions.
+- File compression.
+- Encryption (Encryption File System or EFS).
+
+You can check your system’s file system by looking at the Properties of your hard drive.
+
+## File and Folder Permissions
+
+Permissions allow you to grant or deny access to files and folders. The image below shows how these permissions work:
+
+<img src="images/screen2.png" width="800" />
+<small>Image Source: Microsoft</small>
+
+## Alternate Data Streams (ADS)
+
+ADS is a function of NFTS, which allows to hide data in "second stream" ("") of the file. Every file has at least one data stream and ADS allows files to contain more than one stream of data.
+
+For example Windows Explorer doesn't display ADS to the users. There are 3rd party exectuables that can be used to see the data or you can use Powershell that gives you ability to view ADS for files ($DATA)
+
+$DATA is a type of data stream.
+
+These data streams have bad reputation since they have been used and abused by malware writers to write hidden data varying from data about where a file came from to complete malware files.
+
+# In short:
+
+ADS is a feature of NTFS that allows files to have more than one data stream. While Windows Explorer doesn’t show ADS, tools like PowerShell can display it.
+
+
+
+
+
+
+
+
+
+
+
+
