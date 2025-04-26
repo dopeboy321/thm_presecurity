@@ -157,6 +157,12 @@ The System32 folder holds the most important files that are critical for the ope
 
 Many of the files in System32 are required to run Windows. If this folder id deleted or damaged it can cause the entire system to crash or become unstable, you should proceed with extreme caution when interacting with this folder.
 
+Objective for this task was to answer the question:
+
+**What is the system variable for the Windows folder?**
+
+%windir%
+
 
 
 
