@@ -137,9 +137,25 @@ $DATA is a type of data stream.
 
 These data streams have bad reputation since they have been used and abused by malware writers to write hidden data varying from data about where a file came from to complete malware files.
 
-# In short:
+## In short:
 
 ADS is a feature of NTFS that allows files to have more than one data stream. While Windows Explorer doesn’t show ADS, tools like PowerShell can display it.
+
+
+# Task 5 The Windows\System32 Folders 
+
+`C:\Windows` is known as the main folder which contains the Windows opearting system.
+It doesn't mean that it always need to be in drive C necessairly. It can reside in any other drive and folder.
+
+In windows, 
+%windir%
+ is an environment variable in Windows that points to the folder where the Windows OS is installed. 
+
+ ## Windows32
+
+The System32 folder holds the most important files that are critical for the operatin system! 
+
+Many of the files in System32 are required to run Windows. If this folder id deleted or damaged it can cause the entire system to crash or become unstable, you should proceed with extreme caution when interacting with this folder.
 
 
 
