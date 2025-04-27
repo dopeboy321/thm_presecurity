@@ -145,7 +145,7 @@ ADS is a feature of NTFS that allows files to have more than one data stream. Wh
 # Task 5 The Windows\System32 Folders 
 
 `C:\Windows` is known as the main folder which contains the Windows opearting system.
-It doesn't mean that it always need to be in drive C necessairly. It can reside in any other drive and folder.
+It doesn't necessarily have to be located on the C: drive. It can reside in any other drive and folder.
 
 In windows, 
 %windir%
@@ -153,9 +153,9 @@ In windows,
 
  ## Windows32
 
-The System32 folder holds the most important files that are critical for the operatin system! 
+The System32 folder holds the most important files that are critical for the operating system! 
 
-Many of the files in System32 are required to run Windows. If this folder id deleted or damaged it can cause the entire system to crash or become unstable, you should proceed with extreme caution when interacting with this folder.
+Many of the files in System32 are required to run Windows. If this folder is deleted or damaged it can cause the entire system to crash or become unstable, you should proceed with extreme caution when interacting with this folder.
 
 Objective for this task was to answer the question:
 
@@ -163,6 +163,50 @@ Objective for this task was to answer the question:
 
 %windir%
 
+# Task 6 User Accounts, Profiles, and Permissions
+
+User accounts on typical local Windows can be one of two types: Administrator and Standard User.
+
+The user account type determines what action a user can perfrom on that specific Windows system.
+
+An Administrator can make changes to the system like:
+- Add users
+- Delete users
+- Modify groups
+- Modify settings on the system
+
+A Standard User can only make changes to folders/files attributed to this specific user and can't perform system-level changes, e.g., install programs.
+
+There are several ways to determine which user accounts exist on the system.
+
+One way is to click the `Start Menu` and type `Other User`. A shortcut to `Other users` should appear.
+
+If you're logged in as Administrator, you see an option to `Add someone else to this PC`, in other words, you can create a new user account for this specific Windows. A Standard User will not see this option.
+
+If there is a created Standard User account and you click on it, more options should appear like: `Change account type` and `Remove`.
+
+You can change user permissions to Administrator or keep permissions as Standard User. When a user account is created, a profile is created for the user.
+
+The location for each user profile will be stored in `C:\Users`
+
+Another way to access this information is using `Local User and Group Management`
+
+Right-click on the `Start Menu` and click `Run`. Type `lusrmgr.msc`
+
+Run Dialog Box allows us to open items quickly, it's really handy tool. 
+
+When you enter lusrmgr you can see two folders: `Users` and `Groups`
+
+When you click on `Groups`, you can find all the names of the local groups along with brief description for each. Each group has permissions set to it, and users are assigned to groups by the Administrator. When a user is assigned to a group, the user **inherits the permissions** of that group.
+
+User can be assigned to multiple groups.
+
+You can also create, delete and modify user permissions. You can even set password a few password settings like:
+- Upon next login User have to change password for the new one
+- This user can never change the password
+- Password never expires
+
+You can disable or block the account too.
 
 
 
