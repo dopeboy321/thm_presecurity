@@ -167,7 +167,7 @@ Objective for this task was to answer the question:
 
 User accounts on typical local Windows can be one of two types: Administrator and Standard User.
 
-The user account type determines what action a user can perfrom on that specific Windows system.
+The user account type determines what action a user can perform on that specific Windows system.
 
 An Administrator can make changes to the system like:
 - Add users
@@ -193,23 +193,47 @@ Another way to access this information is using `Local User and Group Management
 
 Right-click on the `Start Menu` and click `Run`. Type `lusrmgr.msc`
 
-Run Dialog Box allows us to open items quickly, it's really handy tool. 
+The Run Dialog Box allows you to open items quickly, it's a really handy tool. 
 
 When you enter lusrmgr you can see two folders: `Users` and `Groups`
 
-When you click on `Groups`, you can find all the names of the local groups along with brief description for each. Each group has permissions set to it, and users are assigned to groups by the Administrator. When a user is assigned to a group, the user **inherits the permissions** of that group.
+When you click on `Groups`, you can find all the names of the local groups along with a brief description for each. Each group has permissions set to it, and users are assigned to groups by the Administrator. When a user is assigned to a group, the user **inherits the permissions** of that group.
 
-User can be assigned to multiple groups.
+A user can be assigned to multiple groups.
 
-You can also create, delete and modify user permissions. You can even set password a few password settings like:
-- Upon next login User have to change password for the new one
+You can also create, delete and modify user permissions. You can even set a few password settings like:
+- Upon next login User has to change password to a new one
 - This user can never change the password
 - Password never expires
 
 You can disable or block the account too.
 
 
+# Task 7 User Account Control
 
+The large majority of the home users are logged into their Windows as local administrators. It means that they can make changes to their system.
+
+A user doesn’t need admin privileges to do everyday tasks like browsing the internet or working on documents. Having admin privileges increases the risk of  malware infection because it would run with the same access level as the user, making it easier for the malware to make changes to the system.
+
+To protect the local user with such privileges, Microsoft intorudced User Account Control. (UAC)
+
+## What is UAC?
+
+User Account Control it's a security feature in Windows that helps prevent unauthorized changes to your system. When enabled, it prompts your for permission(or an administrator password) whenever a program tries to make changes that require higher privileges, like installing software of changing system settings.
+
+The goal of UAC is to help protect your PC from malware and accidental changes by limiting the number of tasks that can be done with admin privileges without your knowledge or approval.
+
+## How does UAC work?
+
+When a user with administrator privileges logs into a system, the current session doesn't run with elevated permissions. When an operating requiring higher-level privileges needs to execute, the user will be prompted to confirm if they permit the operation to run. 
+
+This feature reduces the likelihood of malware successfully compromising your system.
+
+Objective of this Task was to answer the question:
+
+**What does UAC mean?**
+
+Answer: User Account Control
 
 
 
