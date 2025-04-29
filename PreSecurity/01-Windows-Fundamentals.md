@@ -133,7 +133,7 @@ ADS is a function of NFTS, which allows to hide data in "second stream" ("") of 
 
 For example Windows Explorer doesn't display ADS to the users. There are 3rd party exectuables that can be used to see the data or you can use Powershell that gives you ability to view ADS for files ($DATA)
 
-$DATA is a type of data stream.
+$DATA is the default stream containing the main file content.
 
 These data streams have bad reputation since they have been used and abused by malware writers to write hidden data varying from data about where a file came from to complete malware files.
 
@@ -304,8 +304,6 @@ Objective of this Task was to answer the question:
 **What is the keyboard shortcut to open Task Manager?**
 
 Answer: CTRL+SHIFT+ESC
-
-
 
 
 
