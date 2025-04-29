@@ -271,6 +271,39 @@ Objective of this Task was to answer the question:
 
 Answer: Windows Defender Firewall
 
+# Task 9 Task Manager
+
+## What is a Task Manager?
+
+<img src="images/win-task-manager.png" width="800" />
+
+The Task Manager is a powerful tool packed with useful information - from the system's overall resource usage to detailed statistic about each process.
+
+It provides information about the applications and processes currently running on the system, and we can check how much CPU and RAM are being utilized in the Performance tab.
+
+## What can you do with Task Manager?
+
+- End unresponsive programs
+- Startup management
+- Check resource usage
+- View running background processes
+- Monitor user activity
+- Analyze services
+
+## Why is Task Manager useful for troubleshooting?
+
+- Helps identify apps that freeze or crash
+- Lets you detect high CPU or RAM usage
+- Can reveal suspicious or unknown processes e.g., malware
+- useful when the PC is slow or unresponsive
+
+The Task Manager is an essential tool for monitoring and managing Windows performance. It helps troubleshoot issues, manage startup programs, analyze system performance, and keep your machine running smoothly.
+
+Objective of this Task was to answer the question:
+
+**What is the keyboard shortcut to open Task Manager?**
+
+Answer: CTRL+SHIFT+ESC
 
 
 
