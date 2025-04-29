@@ -235,6 +235,41 @@ Objective of this Task was to answer the question:
 
 Answer: User Account Control
 
+# Task 8 Settings and the Control Panel
+
+The primary locations to make changes are the Settings menu and the Control Panel. For a long time, the Control Panel has been go-to location to make system changes but then The Settings menu was introduced in Windows 8.
+
+The Settings menu is now the primary location a user goes if they are looking to change the system. There are similarities and differences between the two menus.
+
+## Control Panel
+
+- Older, classic interface (not touch-friendly)
+- Offers advanced, detailed system settings
+- Used for legacy tools like Device Manager, System Properties, etc.
+- Preferred by power users and administrators
+- slowly being phased out
+
+<img src="images/win-control-panel.png" width="800" />
+
+## Settings Menu
+
+- Modern, clean interface (touch-friendly)
+- Designed for everyday users
+- Focuses on personalization, updates, accounts, privacy, etc.
+- Integrated with Microsoft account and cloud services
+- Acively developed and expanding
+
+<img src="images/win-settings.png" width="800" />
+
+Control Panel is the menu where you will access more complex and perform more complex actions. In some cases, you can start in Settings and end up in the Control Panel. 
+
+If unclear which to open - use the `Start Menu` and serach for it.
+
+
+
+
+
+
 
 
 
