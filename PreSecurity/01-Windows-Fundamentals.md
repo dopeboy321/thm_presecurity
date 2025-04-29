@@ -237,9 +237,9 @@ Answer: User Account Control
 
 # Task 8 Settings and the Control Panel
 
-The primary locations to make changes are the Settings menu and the Control Panel. For a long time, the Control Panel has been go-to location to make system changes but then The Settings menu was introduced in Windows 8.
+The primary locations to make changes are the Settings menu and the Control Panel. For a long time, the Control Panel has been go-to location to make system changes, but then The Settings menu was introduced in Windows 8.
 
-The Settings menu is now the primary location a user goes if they are looking to change the system. There are similarities and differences between the two menus.
+The Settings menu is now the primary location users go to when they want to change system settings. There are similarities and differences between the two menus.
 
 ## Control Panel
 
@@ -261,12 +261,15 @@ The Settings menu is now the primary location a user goes if they are looking to
 
 <img src="images/win-settings.png" width="800" />
 
-Control Panel is the menu where you will access more complex and perform more complex actions. In some cases, you can start in Settings and end up in the Control Panel. 
+The Control Panel is the place where you will access more complex and perform more complex system actions. In some cases, you may start in Settings and end up in the Control Panel. 
 
-If unclear which to open - use the `Start Menu` and serach for it.
+If unclear which to open - use the `Start Menu` and search for it.
 
+Objective of this Task was to answer the question:
 
+**In the Control Panel, change the view to Small icons. What is the last setting in the Control Panel view?** 
 
+Answer: Windows Defender Firewall
 
 
 
