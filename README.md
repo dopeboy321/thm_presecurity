@@ -11,6 +11,7 @@ This repository contains my notes from learning cybersecurity.
 Currently, I am working through the **PreSecurity** room – starting with the basics of Windows Fundamentals.
 
 🔗 My TryHackMe profile: [https://tryhackme.com/p/rotni96]
+
 🔗 My Learning Journal: [https://github.com/rotni96/learning-journal]
 
 ---
