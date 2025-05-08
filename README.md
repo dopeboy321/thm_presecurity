@@ -14,6 +14,8 @@ Currently, I am working through the **PreSecurity** room – starting with the b
 
 🔗 My Learning Journal: [https://github.com/rotni96/learning-journal]
 
+🔗 My Windows Mini lab: [https://github.com/rotni96/thm_presecurity/tree/main/PreSecurity/Windows-Mini-Labs]
+
 ---
 
 ## Progress in PreSecurity room
