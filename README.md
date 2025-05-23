@@ -20,13 +20,13 @@ Currently, I am working through the **PreSecurity** room – starting with the b
 
 ## Progress in PreSecurity room
 
+- [✅] Windows Fundamentals
 - [❌] IP Addresses
 - [❌] DNS
 - [❌] HTTP & Web
 - [❌] Attacks
 - [❌] Wireshark
 
-✅
 
 ---
 
